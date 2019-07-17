@@ -18,4 +18,8 @@
     Private Sub BtnClickP1(sender As Object, e As RoutedEventArgs)
         myFrame.NavigationService.Navigate(New Page1())
     End Sub
+
+    Private Sub BtnClickP2(sender As Object, e As RoutedEventArgs)
+        myFrame.NavigationService.Navigate(New Page2())
+    End Sub
 End Class
